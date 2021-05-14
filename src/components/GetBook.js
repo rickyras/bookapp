@@ -93,7 +93,7 @@ listItem.appendChild(x);
 
 console.log(product.title);
 
-//this allows 1 result to be returned, easier to sort search, if removed, all results are shown
+//this allows one result to be returned, easier to sort search, if removed, all results are shown
     var indents = [];
     for (var i = 0; i < this.props.level; i++) {
       indents.push(<span className='indent' key={product.isbn[0]}>te</span>);
