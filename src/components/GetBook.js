@@ -30,7 +30,7 @@ var GetBook = ({ onSendBook, lastId }) => {
 
     // Function to do an Ajax call
 const doAjax = async () => {
-  const response = await fetch('http://openlibrary.org/search.json?q='+formData.title); // Generate the Response object
+  const response = await fetch('https://openlibrary.org/search.json?q='+formData.title); // Generate the Response object
   if (response.ok) {
     const jsonValue = await response.json(); // Get JSON value from the response body
     return Promise.resolve(jsonValue);
