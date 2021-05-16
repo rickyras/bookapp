@@ -2,7 +2,6 @@
   "name": "reactinterface",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rickyras.github.io/bookapp",
   "dependencies": {
     "@craco/craco": "^6.1.2",
     "@testing-library/jest-dom": "^5.11.4",
@@ -16,10 +15,8 @@
   },
   "scripts": {
     "start": "craco start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "build": "craco build",
+    "test": "craco test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

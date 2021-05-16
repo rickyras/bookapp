@@ -62,8 +62,10 @@ var myList = document.querySelector('ul');
       }
       onSendBook(BookInfo)
       
+
+      console.log('hello?');
  //   setFormData(BookInfo); //sets value of input form 
-    console.log(data['docs']);
+    /* console.log(data['docs']);
     
      
  let listItem = document.createElement('li');
@@ -91,23 +93,13 @@ listItem.appendChild(x);
 ) 
   myList.appendChild(listItem);
 
-console.log(product.title);
+console.log(product.title); */
 
 //this allows one result to be returned, easier to sort search, if removed, all results are shown
-    var indents = [];
-    for (var i = 0; i < this.props.level; i++) {
-      indents.push(<span className='indent' key={product.isbn[0]}>te</span>);
-    }
-    return indents;
-
 }
-
   console.log('end of iteration');
 })
 .catch(console.error);
-
-
-
 
   }
 
