@@ -1,5 +1,6 @@
 technical questions.md. 
 1.	How long did you spend on the coding assignment? 2 days
+<br>
 a.	What would you add to your solution if you had more time? I would add the ability to paginate all the results for the single query, make clickable redirects (separate api calls) from the results shown to get more specific result. 
 b.	If you didn't spend much time on the coding test, then use this as an opportunity to explain what you would add.
 If I didn’t spend as much time on the coding test, I would have implemented an Ajax search, to automatically display results as search is typed, without having to enter submit. 
